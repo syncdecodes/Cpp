@@ -42,6 +42,5 @@ but suggestions, tips, or learning resources are always welcome!
 
 ## ✍️ AUTHOR
 
-DEV  
-
+DEV <br>
 Created by [imdevvx](https://github.com/imdevvx)
