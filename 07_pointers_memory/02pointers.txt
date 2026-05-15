@@ -1,0 +1,26 @@
+What is a memory?
+    Every variable is stored somewhere is RAM
+
+What is a pointer?
+    A pointer is a variable that stores the memory address of another variable.
+    int x = 10
+
+Meaning of & (Address-of Operator)
+    &var gives the memory address of the variable
+
+Meaning of *
+    (i) * in Declaration → Pointer Declaration
+        => eg: int *ptr; // ptr is a pointer to an int
+    (ii) * in Expression → Dereference Operator
+        => Dereferencing means: Go to the memory address and get the value stored there.
+
+Variables can be modified using pointers
+
+References (& in Parameters) are alias of variable
+
+pointer                                references
+int *p = &x;                           int &r = x;
+. stores address                     . alias of variable
+. can change where it points         . automatically refers to same variable
+. needs dereferencing                . no dereferencing needed
+
