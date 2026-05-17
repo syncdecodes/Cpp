@@ -70,4 +70,14 @@ hence to work with the original values we have to pass by referene
 reference - a memory address (&)
 
 best practice - pass by reference until and unless we have a proper reason
+
+| Feature            | Call by Value                                          | Call by Reference                                    |
+| ------------------ | ------------------------------------------------------ | ---------------------------------------------------- |
+| **Data Passed**    | A copy of the variable's value.                        | The memory address (reference) of the variable.      |
+| **Original Value** | Remains unchanged by function modifications.           | Can be modified directly by the function.            |
+| **Memory**         | Uses separate memory for actual and formal parameters. | Shares the same memory location for both parameters. |
+| **Performance**    | Slower for large data (due to copying overhead).       | Efficient for large objects as it avoids copying.    |
+| **Syntax**         | `void func(int x)`                                     | `void func(int &x)`                                  |
+
 */
+
