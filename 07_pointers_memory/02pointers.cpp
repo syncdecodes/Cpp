@@ -82,3 +82,8 @@ int main()
     return 0;
 }
 */
+
+/*
+int* p, q;  // Warning: 'p' is a pointer to an int, but 'q' is just a regular int!
+int *p, *q; // Correct: Both 'p' and 'q' are pointers to ints.
+*/
