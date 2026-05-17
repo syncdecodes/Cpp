@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-Inline function tells compiler: Replace function call with actual code.
+An inline function is a function in which the compiler replaces the function call with the actual function code during compilation.
 */
 
 inline int sum(int a, int b){
