@@ -1,7 +1,16 @@
 #include <iostream>
 using namespace std;
 
-// static members are variables or functions that belong to the class itself rather than to any specific object (instance) of that class.
+/* 
+Static members are variables or functions that belong to the class itself rather than to any specific object (instance) of that class.
+It is a class variable that is shared by all objects of the class.
+
+Uses of Static Data Member -:
+To store common data shared by all objects
+To count number of objects created
+To save memory
+To maintain class-level info
+*/
 
 // static var
 class Test
