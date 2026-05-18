@@ -1,6 +1,17 @@
 #include <iostream>
 using namespace std;
 
+/*
+A copy constructor in C++ is:
+a special type of constructor used to create a new object
+as a duplicate of an existing object of the same class.
+
+syntax -:
+ClassName(const ClassName &old_obj){
+    // Body to copy member values 
+}
+*/
+
 class Student
 {
     int marks;
@@ -11,6 +22,7 @@ public:
         marks = m;
     }
 
+    // Copy constructor
     Student(const Student &s){
         marks = s.marks;
         cout << "Copy constructor called." << endl;
@@ -33,5 +45,6 @@ int main()
     s1.display();
     s2.display();
     s3.display();
+    
     return 0;
 }
