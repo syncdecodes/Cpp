@@ -5,10 +5,10 @@ using namespace std;
 Polymorphism means “many forms”
 .
 Types of Polymorphism -:
-| Type         | Time                          |
-| ------------ | ----------------------------- |
-| Compile-time | Function/Operator overloading |
-| Run-time     | Function overriding           |
+| Type         | Definiton                           |      Time                    |
+| ------------ | ----------------------------------- |----------------------------- |
+| Compile-time | Fn call resolves during compilation |Function/Operator overloading |
+| Run-time     | Fn call resolve during execution    |Function overriding           |
 */
 
 // Function overloading: same fn with different parameters
