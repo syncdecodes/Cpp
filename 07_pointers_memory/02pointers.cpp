@@ -33,6 +33,16 @@ int main()
 }
 
 
+/*
+| Expression| Meaning                          |
+| --------- | -------------------------------- |
+| (*ptr)++  | Increment value                  |
+| ptr++     | Move pointer                     |
+| *ptr++    | Move pointer (due to precedence) |
+
+*/
+
+
 
 /*
 References & -:
